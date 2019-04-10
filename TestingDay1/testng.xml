@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite" parallel="tests">
-<test name=Test1">
+<test>
+<classes>
+<class name="com.test.NewTest5"/></classes>
+</test>
+<!--  <test name=Test1">
 <parameter name="node" value="http://10.116.17.165"></parameter>
 <classes>
 <class name="com.test.NewTest8"/></classes>
@@ -16,7 +20,7 @@
   <parameter name="node" value=""></parameter>
 <classes>
 <class name="com.test.NewTest8"/></classes>
-</test>
+</test>-->
   
   </test> <!-- Test -->
 </suite> <!-- Suite -->
